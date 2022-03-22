@@ -16,6 +16,13 @@ event init (t = 0){
 event images (i++){
 	output_ppm (h, file = "h.mp4");
 }
+
+event graphs (i++){
+	// fill a stats object for h
+	stats s = statsf (h);
+	// record min and max depths
+	fprintf (stderr,"%g %g %g\n",t,s.min,s.max);
+}
 /*
  * event is a function, i=10 tells basilisk to do 10 time steps
  */

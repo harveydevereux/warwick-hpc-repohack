@@ -7,7 +7,7 @@
 #SBATCH --account=su107-cpu
 
 module purge
-module load foss/2021b flex Bison Mesa glew libGLU/9.0.2 FFmpeg
+module load GCCcore/10.3.0 foss/2021b flex Bison Mesa glew libGLU/9.0.2 FFmpeg gnuplot
 rm test
 qcc -O2 -Wall ~/basilisk/src/examples/karman.c -o test -lm
 srun ./test
