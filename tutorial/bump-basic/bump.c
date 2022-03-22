@@ -26,7 +26,7 @@ event graphs (i++){
 /*
  * event is a function, i=10 tells basilisk to do 10 time steps
  */
-event end (i=10){
+event end (i=1000){
 	printf ("i=%d t = %g\n",i,t);
 }
 
