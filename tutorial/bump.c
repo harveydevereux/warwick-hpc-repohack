@@ -12,6 +12,10 @@ event init (t = 0){
 		// guassian
 		h[] = 0.1 + 1.*exp(-200.*(x*x+y*y));
 }
+
+event images (i++){
+	output_ppm (h, file = "h.mp4");
+}
 /*
  * event is a function, i=10 tells basilisk to do 10 time steps
  */
