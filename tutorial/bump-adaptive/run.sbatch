@@ -8,7 +8,8 @@
 
 module purge
 module load foss/2021b flex Bison Mesa glew libGLU/9.0.2 FFmpeg GCCcore/10.3.0 gnuplot/5.4.2
-rm test
-qcc -O2 -Wall ~/basilisk/src/examples/karman.c -o test -lm
-srun ./test
+rm bump
 
+qcc -O3 -Wall bump.c -o bump -lm
+./bump > out.ppm 2>log
+./gnuplot-bump

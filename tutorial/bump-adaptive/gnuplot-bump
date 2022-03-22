@@ -1,0 +1,1 @@
+gnuplot -e "set terminal png size 400,300; set output 'min-max-depth.png'; set xlabel 'Time'; set ylabel 'Depth'; plot 'log' using 1:2 with lines title 'min', 'log' using 1:3 with lines title 'max'"
