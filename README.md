@@ -1,3 +1,7 @@
+## [HPC ReproHack @ Warwick (March 2022)](https://www.reprohack.org/event/14/Part) reviewing [Droplet impact onto a spring-supported plate: analysis and simulations, Michael J. Negus, 2021](https://www.reprohack.org/paper/67/)
+
+Reviewers: Harvey Devereux (he/him), University of Warwick and Peter Lewin-Jones (he/him), University of Warwick, with mentor Radu Cimpeanu, (he/him), University of Warwick, @rcimpeanu
+
 ### ReproHacking
 
 A run of the repo's example "example_ran" as is can be found in this archive, complete with all output and code after running ``` ./run_simulation.sh droplet_impact_plate -n 8```
