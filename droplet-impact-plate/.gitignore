@@ -1,0 +1,41 @@
+# .gitignore for plate-impact repository
+
+# Ignores test files that are outputted in Basilisk simulations
+*.s 
+*.s.d 
+*.tst 
+*.deps
+*.tests
+
+# Make output files
+warn
+out
+pass
+*.err
+
+# Raw data directories
+raw_data
+
+# Nohup files
+nohup.out
+
+# VSCode files
+.vscode
+
+# Data analysis
+Figures/
+
+# MATLAB temporary save files
+*.m~
+
+# Ignore videos
+*.avi
+*.mp4
+
+# Ignore text, dat  and log files
+*.txt 
+log
+*.dat
+
+# Ignore gfs files
+*.gfs
