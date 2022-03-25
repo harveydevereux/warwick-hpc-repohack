@@ -4,7 +4,7 @@ Reviewers: Harvey Devereux (he/him), University of Warwick and Peter Lewin-Jones
 
 ### ReproHacking
 
-A run of the repo's example "example_ran" as is can be found in this archive, complete with all output and code after running ``` ./run_simulation.sh droplet_impact_plate -n 8```
+A run of the repo's example "example_ran" as is can be found in this archive, complete with all output and code after running ``` ./run_simulation.sh droplet_impact_plate 8```
 
 https://github.com/harveydevereux/warwick-hpc-repohack/blob/master/example-clean-repo.tar.gz
 
