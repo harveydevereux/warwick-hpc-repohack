@@ -1,4 +1,15 @@
-### setup
+## [HPC ReproHack @ Warwick (March 2022)](https://www.reprohack.org/event/14/Part) reviewing [Droplet impact onto a spring-supported plate: analysis and simulations, Michael J. Negus, 2021](https://www.reprohack.org/paper/67/)
+
+Reviewers: Harvey Devereux (he/him), University of Warwick and Peter Lewin-Jones (he/him), University of Warwick, with mentor Radu Cimpeanu, (he/him), University of Warwick, @rcimpeanu
+
+### ReproHacking
+
+A run of the repo's example "example_ran" as is can be found in this archive, complete with all output and code after running ``` ./run_simulation.sh droplet_impact_plate 8```
+
+https://github.com/harveydevereux/warwick-hpc-repohack/blob/master/example-clean-repo.tar.gz
+
+
+### Setup
 
 Following the instructions here (http://basilisk.fr/src/INSTALL) and here (http://basilisk.fr/src/gl/INSTALL)
 
@@ -51,7 +62,7 @@ cd $BASILISK/src
 make -k && make
 ```
 
-My ```bash $BASILISK/src/config``` for reference
+My ```$BASILISK/src/config``` for reference
 ```bash
 cat ~/basilisk/src/config
 # -*-Makefile-*-
